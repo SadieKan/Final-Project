@@ -37,7 +37,7 @@ html{
 }
 
 .button{
-  margin: 70px auto 0;
+  margin: 4vw 0;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
 }
@@ -75,38 +75,41 @@ html{
   color: #26315f;
 }
 
-#sideNav{
-  width: 250px;
-  height: 100vh;
+.nav {
+  height: 100%;
+  width: 0;
   position: fixed;
-  right: 0;
-  top: 0;
-  background: #ffffff;
   z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 1vw;
 }
 
-nav{
-  padding-top: 2vw;
-}
-
-nav ul li{
-  list-style: none;
+.nav a {
+  font-family: "Lato", sans-serif;
   margin: 5vw 2vw;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 1vw;
-}
-
-nav ul li a{
   text-decoration: none;
+  font-size: 25px;
   color: #26315f;
+  display: block;
+  transition: 0.3s;
 }
 
-nav ul li a:hover{
-  color: #f6e9a0;
+.nav a:hover {
+  color: #a8d0e6;
 }
 
-#menuButton{
+.nav .closebtn {
+  position: absolute;
+  font-size: 4vw;
+  margin-top: -0.4vw;
+  margin-left: 11vw;
+}
+
+.menuBtn{
   width: 50px;
   height: 50px;
   background: #ffffff;
@@ -115,11 +118,10 @@ nav ul li a:hover{
   right: 30px;
   top: 20px;
   border-radius: 3px;
-  z-index: 3;
   cursor: pointer;
 }
 
-#menuButton img{
+.menuBtn img{
   width: 20px;
   margin-top: 15px;
 }

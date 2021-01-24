@@ -39,6 +39,34 @@
       </div>
     </div>
   </section>
+  <div id="sideNav">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Drawing with the App</a></li>
+        <li><a href="#">App Music</a></li>
+        <li><a href="#">More About the App</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="menuButton">
+    <img src="Images/menu.png" id="menu">
+  </div>
+
+  <script>
+  var menuButton = document.getElementById("menuButton")
+  var sideNav = document.getElementsById("sideNav")
+  var menu = document.getElementsById("menu")
+
+  menuButton.onclick = function() {
+    if (sideNav.style.right == "-250px") {
+      sideNav.style.right = "0";
+    } else if (sideNav.style.right == "0") {
+      sideNav.style.right = "-250px";
+    }
+  }
+  </script>
+
   </body>
 
 <html>

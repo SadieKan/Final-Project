@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background: url('Images/homeBackground.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.logo{
+  width: 9vw;
+  position: absolute;
+  top: 15vw;
+  left: 72vw;
+}
+
+.main{
+  text-align: center;
+  padding-top: 15vw;
+}
+
+.main h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8vw;
+  color: #ff6167;
+}
+
+.main p{
+  margin-left: 15vw;
+  margin-right: 15vw;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vw;
+  color: #ffffff;
+}
+
+.button{
+  margin: 70px auto 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.button a{
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 5vw;
+  padding: 12px 24px;
+  border: 0.5px solid #ffffff;
+  color: #ffffff;
+}

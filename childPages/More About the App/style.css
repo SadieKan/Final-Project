@@ -56,14 +56,14 @@ h1{
 
 .nav .closebtn {
   position: absolute;
-  font-size: 4vw;
+  font-size: 70px;
   right: 0.3vw;
-  top: -3.8vw;
+  top: -3.9vw;
 }
 
 .menuBtn{
-  width: 3vw;
-  height: 3vw;
+  width: 50px;
+  height: 50px;
   background: #ffffff;
   text-align: center;
   position: fixed;

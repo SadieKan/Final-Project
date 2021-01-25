@@ -22,9 +22,48 @@ html{
 h1{
   text-align: center;
   padding-top: 3vw;
+  padding-bottom: 3vw;
   font-family: 'Montserrat', sans-serif;
   font-size: 5vw;
   color: #ffffff;
+}
+
+h3{
+  text-align: left;
+  padding-left: 17vw;
+  font-size: 1.8vw;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 0.7vw;
+}
+
+.buttonIcons img{
+  margin-left: 15vw;
+  padding-top: 2vw;
+}
+
+.main{
+  margin-top: -58vw;
+  margin-left: 30vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main h4{
+  font-size: 2vw;
+}
+
+.text1 ul{
+  padding-left: 1.5vw;
+  font-size: 1.5vw;
+  margin-right: 14vw;
+  margin-bottom: 10vw;
+}
+
+.text ul{
+  padding-left: 1.5vw;
+  font-size: 1.5vw;
+  margin-right: 14vw;
+  margin-bottom: 12vw;
 }
 
 .nav {

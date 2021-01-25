@@ -5,6 +5,8 @@
 
 html{
   background: url('Images/homeBackground.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -71,10 +73,6 @@ html{
   opacity: 0.33;
 }
 
-.button a:hover{
-  color: #26315f;
-}
-
 .nav {
   height: 100%;
   width: 0;
@@ -104,9 +102,9 @@ html{
 
 .nav .closebtn {
   position: absolute;
-  font-size: 4vw;
-  margin-top: -0.4vw;
-  margin-left: 11vw;
+  font-size: 70px;
+  right: 0.3vw;
+  top: -3.9vw;
 }
 
 .menuBtn{
@@ -115,8 +113,8 @@ html{
   background: #ffffff;
   text-align: center;
   position: fixed;
-  right: 30px;
-  top: 20px;
+  right: 2vw;
+  top: 2vw;
   border-radius: 3px;
   cursor: pointer;
 }

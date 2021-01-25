@@ -28,27 +28,28 @@
   </head>
 
   <body>
-  <header><h1>Header Title</h1></header>
-  <nav><h1>Navigation</h1></nav>
-  <aside><p>This is the aside space.</p></aside>
-  <section>
-    <h3>Section 1</h3>
-    <article>
-      <p>This is article 1 in section 1.</p>
-    </article>
-    <article>
-      <p>This is article 2 in section 1.</p>
-    </article>
-  </section>
-  <section>
-    <h3>Section 2</h3>
-    <article>
-      <p>This is article 1 in section 2.</p>
-    </article>
-    <article>
-      <p>This is article 2 in section 2.</p>
-    </article>
-  </section>
+    <img src="../../Images/logoFlipped.png" class="logo">
+    <header><h1>More About ClickDraw</h1></header>
+
+
+    <span class="menuBtn" onclick="openNav()"><img src="../../Images/menu.png"></span>
+    <div id="sideNav" class="nav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="../../index.html">Home</a>
+      <a href="../Drawing With the App/drawingWithTheApp.html">Drawing with the App</a>
+      <a href="../App Music/appMusic.html">App Music</a>
+      <a href="../More About the App/moreAboutTheApp.html">More About the App</a>
+    </div>
+
+    <script>
+    function openNav() {
+      document.getElementById("sideNav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("sideNav").style.width = "0";
+    }
+    </script>
   </body>
-  
+
 </html>

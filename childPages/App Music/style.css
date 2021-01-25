@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background: url('../../Images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.logo{
+  width: 5vw;
+  position: absolute;
+  top: 3.5vw;
+  left: 30.5vw;
+}
+
+h1{
+  text-align: center;
+  padding-top: 3vw;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5vw;
+  color: #ffffff;
+}
+
+.nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 1vw;
+}
+
+.nav a {
+  font-family: "Lato", sans-serif;
+  margin: 5vw 2vw;
+  text-decoration: none;
+  font-size: 25px;
+  color: #26315f;
+  display: block;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #a8d0e6;
+}
+
+.nav .closebtn {
+  position: absolute;
+  font-size: 4vw;
+  right: 0.3vw;
+  top: -3.8vw;
+}
+
+.menuBtn{
+  width: 3vw;
+  height: 3vw;
+  background: #ffffff;
+  text-align: center;
+  position: fixed;
+  right: 2vw;
+  top: 2vw;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.menuBtn img{
+  width: 20px;
+  margin-top: 15px;
+}
